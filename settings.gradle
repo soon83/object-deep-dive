@@ -1,6 +1,6 @@
 rootProject.name = 'object'
 
-['common', 'chapter-001'].each {
+['common', 'chapter001', 'chapter002'].each {
     def compDir = new File(rootDir, it)
     if (!compDir.exists()) {
         compDir.mkdirs()

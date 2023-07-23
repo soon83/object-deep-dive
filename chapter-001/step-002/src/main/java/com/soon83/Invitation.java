@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
  */
 @ToString
 public class Invitation {
-    private LocalDateTime when; // 초대일자
+    private final LocalDateTime when; // 초대일자
 
     public Invitation(LocalDateTime when) {
         this.when = when;
